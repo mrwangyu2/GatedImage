@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{eb2e0e9f-e022-44da-86e3-5fdf6357ddc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib">
+      <UniqueIdentifier>{94f4c4ff-7e92-403c-8eb2-b9e81c0eebf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{87f10a72-c00c-427b-9617-17575d849759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\images">
+      <UniqueIdentifier>{2e4881d3-f7ae-4e5e-82a8-fe6fbe66d798}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HybirdData.h">
+      <Filter>src\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LookupTableWrapper.h">
+      <Filter>src\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\NaturalSort.h">
+      <Filter>src\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DicomImageReaderForGatedImage.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GatedImageViewer.h">
+      <Filter>src\images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImageViewerForGatedImage.h">
+      <Filter>src\images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MyVtkInteractorStyleImage.h">
+      <Filter>src\images</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\HybirdData.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\LookupTableWrapper.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\NaturalSort.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DicomImageReaderForGatedImage.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GatedImageViewer.cpp">
+      <Filter>src\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ImageViewerForGatedImage.cpp">
+      <Filter>src\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MyVtkInteractorStyleImage.cpp">
+      <Filter>src\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

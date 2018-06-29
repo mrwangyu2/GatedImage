@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\IOImage\vtkBMPReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkBMPWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkDEMReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkDICOMImageReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkGESignaReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkImageExport.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkImageImport.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkImageImportExecutive.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkImageReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkImageReader2.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkImageReader2Collection.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkImageReader2Factory.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkImageWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkJPEGReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkJPEGWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkJSONImageWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkMedicalImageProperties.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkMedicalImageReader2.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkMetaImageReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkMetaImageWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkMRCReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkNIFTIImageHeader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkNIFTIImageReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkNIFTIImageWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkNrrdReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkPNGReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkPNGWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkPNMReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkPNMWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkPostScriptWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkSLCReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkTIFFReader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkTIFFWriter.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkVolume16Reader.cxx" />
+    <ClCompile Include="..\..\src\IOImage\vtkVolumeReader.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\IOImage\vtkBMPReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkBMPWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkDEMReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkDICOMImageReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkGESignaReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkImageExport.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkImageImport.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkImageImportExecutive.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkImageReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkImageReader2.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkImageReader2Collection.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkImageReader2Factory.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkImageWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkIOImageModule.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkJPEGReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkJPEGWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkJSONImageWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkMedicalImageProperties.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkMedicalImageReader2.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkMetaImageReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkMetaImageWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkMRCReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkNIFTIImageHeader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkNIFTIImagePrivate.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkNIFTIImageReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkNIFTIImageWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkNrrdReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkPNGReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkPNGWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkPNMReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkPNMWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkPostScriptWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkSLCReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkTIFFReader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkTIFFWriter.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkVolume16Reader.h" />
+    <ClInclude Include="..\..\src\IOImage\vtkVolumeReader.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E6796251-B3C6-4A07-842E-309B457A0163}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>vtkIOImage</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>vtkIOImage-7.1</TargetName>
+    <OutDir>..\GatedImage\Debug</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VTKIOIMAGE_EXPORTS;vtkIOImage_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include\vtk-7.1;..\..\include\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\..\lib\Debug\vtkCommonExecutionModel-7.1.lib;..\..\lib\Debug\vtkCommonDataModel-7.1.lib;..\..\lib\Debug\vtkCommonMisc-7.1.lib;..\..\lib\Debug\vtkCommonSystem-7.1.lib;..\..\lib\Debug\vtkCommonTransforms-7.1.lib;..\..\lib\Debug\vtkDICOMParser-7.1.lib;..\..\lib\Debug\vtkmetaio-7.1.lib;..\..\lib\Debug\vtkpng-7.1.lib;..\..\lib\Debug\vtksys-7.1.lib;..\..\lib\Debug\vtktiff-7.1.lib;..\..\lib\Debug\vtkzlib-7.1.lib;..\..\lib\Debug\vtkCommonMath-7.1.lib;..\..\lib\Debug\vtkCommonCore-7.1.lib;ws2_32.lib;Psapi.lib;comctl32.lib;wsock32.lib;..\..\lib\Debug\vtkjpeg-7.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VTKIOIMAGE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
