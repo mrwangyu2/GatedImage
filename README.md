@@ -8,9 +8,11 @@
 
 ## 运行效果
 * 冠状面
+![image](https://github.com/mrwangyu2/GatedImage/gif/coronal.gif)
 
 
 * 矢状面
+![image](https://github.com/mrwangyu2/GatedImage/gif/sagittal.gif)
 
 
 
@@ -54,7 +56,5 @@
   * dll 运行时库文件，将其复制到 proj.win32/GatedImage/Debug下
   * proj.win32 VS2013使用的工程文件
   * src 代码文件
-
-## 程序下载地址
-https://github.com/mrwangyu2/
+  * gif readme中的gif动画
 
