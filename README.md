@@ -8,11 +8,11 @@
 
 ## 运行效果
 * 冠状面
-![image](https://github.com/mrwangyu2/GatedImage/gif/coronal.gif)
+![image](https://github.com/mrwangyu2/GatedImage/blob/master/gif/coronal.gif)
 
 
 * 矢状面
-![image](https://github.com/mrwangyu2/GatedImage/gif/sagittal.gif)
+![image](https://github.com/mrwangyu2/GatedImage/blob/master/gif/sagittal.gif)
 
 
 
